@@ -1,4 +1,5 @@
-# Introdução às funções Python - [def] define um função
+# Introdução às funções Python - def define uma função
+
 """
 Introdução às funções (def) em Python
 Funções são trechos de código usados para 
@@ -8,12 +9,27 @@ e retornar um valor específico.
 Por padrão, funções Python retornam None (nada).
 """
 
+# def Print(a, b, c):
+#     print('Várias1')
+#     print('Várias2')
+#     print('Várias3')
+#     print('Várias4')
 
-def print():
-    print('01')
-    print('02')
-    print('03')
-    print('04')
+# Print()
 
-print()
-    
+# def imprimir(a, b, c):
+#     print('Várias1')
+#     print('Várias2')
+#     print('Várias3')
+#     print('Várias4')
+
+# imprimir(1, 2, 3)
+
+def saudacao(nome='Test vazio'):
+    print(f'Olá {nome}!!!')
+
+saudacao('Tiago Oliveira')
+saudacao('Victoria Aquino')
+saudacao('Hatch de Oliveira Aquino')
+saudacao()
+
